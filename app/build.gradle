@@ -32,6 +32,9 @@ android {
 
         }
     }
+    viewBinding {
+        enabled = true
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -44,11 +47,11 @@ android {
 dependencies {
 
     def archLifecycleVersion = '2.5.1'
-    def coroutineVersion = '1.4.1'
+    def coroutineVersion = '1.6.4'
     def koinVersion = '2.0.1'
     def retrofitVersion = '2.6.0'
     def OKHttpVersion = '4.9.2'
-    def gsonVersion = '2.8.6'
+    def gsonVersion = '2.9.0'
     def nav_version = "2.5.2"
     def glideVersion = "4.14.2"
 
@@ -83,6 +86,8 @@ dependencies {
     // Coroutine
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
+
 
     // navigation
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
