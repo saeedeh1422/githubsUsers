@@ -9,5 +9,6 @@ data class UserDetail(
     val followers: Long,
     val following: Long,
     val location: String,
+    val followersUrl : String
 
 )

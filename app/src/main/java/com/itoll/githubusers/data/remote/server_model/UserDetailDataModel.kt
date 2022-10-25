@@ -14,7 +14,8 @@ data class UserDetailDataModel(
     val email: String?,
     val events_url: String?,
     val followers: Long?,
-    val followers_url: String?,
+    @SerializedName("followers_url")
+    val followersUrl: String?,
     val following: Long?,
     val following_url: String?,
     val gists_url: String?,
@@ -49,5 +50,6 @@ fun UserDetailDataModel.toUserDetail(): UserDetail =
         email = email ?: "",
         followers = followers ?: 0L,
         following = following ?: 0L,
-        location = location ?: ""
+        location = location ?: "",
+        followersUrl = followersUrl ?: ""
     )
