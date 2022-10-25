@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/drawable/background_gradiant.xml" value="0.2545" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/drawable/background_gray9_rad.xml" value="0.246" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/drawable/background_gray_radius.xml" value="0.2545" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/drawable/background_row_gray_radius.xml" value="0.246" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/drawable/ic_search_gray.xml" value="0.246" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/drawable/place_holder.xml" value="0.246" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/layout/activity_main.xml" value="0.2910569105691057" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/layout/fragment_user_detail.xml" value="0.3203125" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/layout/fragment_user_list.xml" value="0.3203125" />
+        <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/layout/row_user.xml" value="0.33" />
         <entry key="..\:/Users/saeedeh/AndroidStudioProjects/GithubUsers/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>

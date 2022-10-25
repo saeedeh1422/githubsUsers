@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //space
+    <dimen name="spacing8">8dp</dimen>
+    <dimen name="spacing10">10dp</dimen>
+    <dimen name="spacing12">12dp</dimen>
+    <dimen name="spacing14">14dp</dimen>
+    <dimen name="spacing16">16dp</dimen>
+    <dimen name="spacing24">24dp</dimen>
+    <dimen name="spacing32">32dp</dimen>
+    <dimen name="spacing42">42dp</dimen>
+
+
+    //text
+    <dimen name="textXSmall">10sp</dimen>
+    <dimen name="textSmall">12sp</dimen>
+    <dimen name="textNormal">14sp</dimen>
+    <dimen name="textLarge">16sp</dimen>
+    <dimen name="textXLarge">18sp</dimen>
+    <dimen name="textXXLarge">20sp</dimen>
+
+
+
+
+    <dimen name="search_box_height">40dp</dimen>
+    <dimen name="user_row_height">80dp</dimen>
+    <dimen name="user_detail_avatar">120dp</dimen>
+    <dimen name="user_row_avatar">60dp</dimen>
+    <dimen name="progressBar">50dp</dimen>
+
+</resources>
