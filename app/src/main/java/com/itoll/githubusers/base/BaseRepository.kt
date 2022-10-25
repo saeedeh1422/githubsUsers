@@ -1,13 +1,15 @@
 package com.itoll.githubusers.base
 
 import retrofit2.HttpException
-import retrofit2.Response
 import java.io.IOException
 
 abstract class BaseRepository {
 
-    fun <T> execute(response: T): ApiResult<T> {
+    suspend fun <T> execute(
+        block: suspend () -> T
+    ): ApiResult<T> {
         return try {
+            val response = block()
             ApiResult.Success(response)
         } catch (e: HttpException) {
             when (e.code()) {
