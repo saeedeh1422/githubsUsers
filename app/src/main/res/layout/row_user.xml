@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/user_row_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_row_gray_radius"
+    android:layout_marginStart="@dimen/spacing16"
+    android:layout_marginEnd="@dimen/spacing16"
+    android:layout_marginTop="@dimen/spacing16">
+
+    <ImageView
+        android:id="@+id/avatarImg"
+        android:layout_width="@dimen/user_row_avatar"
+        android:layout_height="@dimen/user_row_avatar"
+        android:background="@drawable/place_holder"
+        android:layout_marginStart="@dimen/spacing32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/userNameTxt"
+        style="@style/TextWhiteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/spacing24"
+        app:layout_constraintStart_toEndOf="@id/avatarImg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text= "saeedeh"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
