@@ -1,18 +1,20 @@
 package com.itoll.githubusers
 
 import android.app.Application
+import com.itoll.githubusers.di.appDiModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
+import org.koin.core.logger.Level
 
-class MainApplication:Application() {
+class MainApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
         startKoin{
-            androidLogger()
+            androidLogger(Level.NONE)
             androidContext(this@MainApplication)
-            modules()
+            modules(appDiModules)
         }
     }
 }

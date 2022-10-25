@@ -43,8 +43,7 @@ class ApiClient {
             val originalRequest: Request = it.request()
             val builder = originalRequest.newBuilder().addHeader(
                 "Content-Type", "application/json"
-            ).addHeader("X-FEATURE-VERSION", "1")
-                .addHeader("Authorization", "Bearer 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")
+            ).addHeader("Authorization", System.getenv("token") ?: "")
 
             val newRequest = builder.build()
             it.proceed(newRequest)
